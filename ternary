@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class ter
+{
+public static void main(String args[])
+{
+    int a;
+    boolean result;
+    Scanner c = new Scanner(System.in);
+    a = c.nextInt();
+    result = a%2==0 ? true:false ;
+    System.out.println(result);
+}
+}
